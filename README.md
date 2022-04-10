@@ -32,7 +32,7 @@ Alicia Parrish, Harsh Trivedi, Ethan Perez, Angelica Chen, Nikita Nangia, Jason 
         - `worker_id` - Unique identifier for each writer
         - `submit_timestamp` - Time the writing task was submitted
         - `output_data` - a dictionary with the following contets:
-            - `passage_id` - Unique identifier for the passage, matches the passage id for the data from the QuALITY dataset
+            - `passage_id` - Unique identifier for the passage, matches the passage id for the data from the QuALITY dataset (available at [https://github.com/nyu-mll/quality])
             - `question_id` - Unique identifier for the question, does *not* match the question ids from the QuALTIY dataset
             - `question_text` - The text of the question
             - `argue_for` - The answer option the writer was assigned to argue for
